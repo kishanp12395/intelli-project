@@ -28,8 +28,8 @@ This is the backend of the **[intelliproject]**, built with Node.js, Express.js,
 
 ### **1. Clone the Repository**
 ```sh
-git clone https://github.com/yourusername/project-backend.git
-cd project-backend
+git clone https://github.com/kishanp12395/intelli-project/tree/main/backend
+cd backend
 ```
 
 ### **2. Install Dependencies**
@@ -41,7 +41,7 @@ npm install
 Create a `.env` file in the root directory and add:
 ```env
 PORT=5000
-MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/myDatabase
+MONGO_URI=mongodb://localhost:27017/
 
 ```
 *(Modify these based on your project requirements.)*
